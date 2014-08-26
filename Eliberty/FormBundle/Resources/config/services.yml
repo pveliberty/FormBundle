@@ -1,0 +1,67 @@
+parameters:
+#    eliberty_form.example.class: Eliberty\FormBundle\Example
+
+services:
+
+    rp.form.type.boolean:
+        class: Eliberty\FormBundle\Form\FormElementType\BooleanType
+        tags: [{ name: form.type, alias: rp_boolean }]
+    rp.form.type.markdown.editor:
+        class: Eliberty\FormBundle\Form\FormElementType\MarkdownEditorType
+        tags: [{ name: form.type, alias: rp_markdown_editor }]
+    rp.form.type.multiselect:
+        class: Eliberty\FormBundle\Form\FormElementType\MultiSelectType
+        tags: [{ name: form.type, alias: rp_multiselect }]
+    rp.form.type.datepicker:
+        class: Eliberty\FormBundle\Form\FormElementType\DatePickerType
+        tags: [{ name: form.type, alias: rp_datepicker }]
+    rp.form.type.tags:
+        class: Eliberty\FormBundle\Form\FormElementType\TagsType
+        tags: [{ name: form.type, alias: rp_tags }]
+    rp.form.type.file.upload:
+        class: Eliberty\FormBundle\Form\FormElementType\FileUploadType
+        tags: [{ name: form.type, alias: rp_file_upload }]
+    rp.form.type.choice_rest:
+        class: Eliberty\FormBundle\Form\FormElementType\RestChoiceType
+        tags: [{ name: form.type, alias: rp_rest_choice }]
+    rp.form.type.choice_bnt:
+        class: Eliberty\FormBundle\Form\FormElementType\BntChoiceType
+        tags: [{ name: form.type, alias: rp_bnt_choice }]
+    rp.form.type.expanded:
+        class: Eliberty\FormBundle\Form\FormElementType\ExpandedType
+        tags: [{ name: form.type, alias: rp_expanded }]
+    rp.form.type.chosen:
+        class: Eliberty\FormBundle\Form\FormElementType\ChosenType
+        tags: [{ name: form.type, alias: rp_chosen }]
+    rp.form.type.chosen.entity:
+        class: Eliberty\FormBundle\Form\FormElementType\ChosenEntityType
+        tags: [{ name: form.type, alias: rp_chosen_entity }]
+    rp.form.type.keycard.skidata:
+        class: Eliberty\FormBundle\Form\FormElementType\KeycardSkidataType
+        tags: [{ name: form.type, alias: rp_keycard_skidata }]
+    rp.form.type.keycard.teamaxess:
+            class: Eliberty\FormBundle\Form\FormElementType\KeycardTeamaxessType
+            tags: [{ name: form.type, alias: rp_keycard_teamaxess }]
+
+    ##Defined form polymorphe collections
+    rp.form.polycollection_type:
+        class: Eliberty\FormBundle\Form\FormElementType\PolyCollectionType
+        tags:
+            - { name: form.type, alias: rp_polycollection}
+
+    rp.form.type.orderitems_collection:
+        class: Eliberty\FormBundle\Form\FormElementType\ItemsCollectionType
+        arguments: [@doctrine.orm.entity_manager]
+        tags:
+            - { name: form.type, alias: orderitems_collection}
+
+    rp.form.type.entity_hidden:
+         class: Eliberty\FormBundle\Form\FormElementType\EntityHiddenType
+         arguments: ["@doctrine.orm.entity_manager"]
+         tags:
+         - { name: form.type, alias: entity_hidden }
+
+
+
+
+
