@@ -23,6 +23,6 @@ class RestChoiceType extends AbstractType
 
     public function getName()
     {
-        return 'rp_rest_choice';
+        return 'eliberty_rest_choice';
     }
 }

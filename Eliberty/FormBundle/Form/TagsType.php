@@ -38,7 +38,7 @@ class TagsType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_tags';
+        return 'eliberty_tags';
     }
 
 

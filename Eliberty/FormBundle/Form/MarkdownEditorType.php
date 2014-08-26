@@ -35,6 +35,6 @@ class MarkdownEditorType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_markdown_editor';
+        return 'eliberty_markdown_editor';
     }
 }

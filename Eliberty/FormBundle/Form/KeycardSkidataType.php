@@ -88,7 +88,7 @@ class KeycardSkidataType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_keycard_skidata';
+        return 'eliberty_keycard_skidata';
     }
 
 }

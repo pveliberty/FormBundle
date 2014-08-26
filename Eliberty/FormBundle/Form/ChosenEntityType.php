@@ -35,6 +35,6 @@ class ChosenEntityType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_chosen_entity';
+        return 'eliberty_chosen_entity';
     }
 }

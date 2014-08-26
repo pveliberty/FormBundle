@@ -23,6 +23,6 @@ class FileUploadType extends AbstractType
 
     public function getName()
     {
-        return 'rp_file_upload';
+        return 'eliberty_file_upload';
     }
 }

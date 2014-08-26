@@ -89,7 +89,7 @@ class KeycardTeamaxessType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_keycard_teamaxess';
+        return 'eliberty_keycard_teamaxess';
     }
 
 }

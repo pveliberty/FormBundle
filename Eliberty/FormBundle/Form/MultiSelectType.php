@@ -35,6 +35,6 @@ class MultiSelectType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_multiselect';
+        return 'eliberty_multiselect';
     }
 }

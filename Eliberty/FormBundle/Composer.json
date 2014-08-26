@@ -24,7 +24,8 @@
         }
     },
     "autoload": {
-        "psr-4": { "Eliberty\\FormBundle\\": "" }
+        "psr-0": { "Eliberty\\FormBundle": "" }
     },
     "target-dir": "Eliberty/FormBundle"
+
 }

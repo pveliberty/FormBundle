@@ -43,6 +43,6 @@ class EntityHiddenType extends AbstractType
 
     public function getName()
     {
-        return 'entity_hidden';
+        return 'eliberty_entity_hidden';
     }
 }

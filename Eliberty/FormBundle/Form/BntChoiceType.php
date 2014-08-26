@@ -20,6 +20,6 @@ class BntChoiceType extends AbstractType
 
     public function getName()
     {
-        return 'rp_bnt_choice';
+        return 'eliberty_bnt_choice';
     }
 }

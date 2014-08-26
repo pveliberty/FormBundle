@@ -35,6 +35,6 @@ class BooleanType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_boolean';
+        return 'eliberty_boolean';
     }
 }

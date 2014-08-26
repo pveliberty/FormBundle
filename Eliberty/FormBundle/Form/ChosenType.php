@@ -35,6 +35,6 @@ class ChosenType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_chosen';
+        return 'eliberty_chosen';
     }
 }

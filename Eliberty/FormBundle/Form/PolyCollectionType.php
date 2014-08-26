@@ -169,6 +169,6 @@ class PolyCollectionType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_polycollection';
+        return 'eliberty_polycollection';
     }
 } 

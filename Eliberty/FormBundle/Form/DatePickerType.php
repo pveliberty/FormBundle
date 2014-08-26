@@ -34,6 +34,6 @@ class DatePickerType extends AbstractType
      */
     public function getName()
     {
-        return 'rp_datepicker';
+        return 'eliberty_datepicker';
     }
 }

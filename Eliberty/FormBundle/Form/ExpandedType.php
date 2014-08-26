@@ -23,6 +23,6 @@ class ExpandedType extends AbstractType
 
     public function getName()
     {
-        return 'rp_expanded';
+        return 'eliberty_expanded';
     }
 }
